@@ -8,7 +8,7 @@ const Paper = ({ children }) => {
     </div>
   );
 };
-Paper.PropTypes = {
+Paper.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
